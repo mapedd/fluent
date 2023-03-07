@@ -3,9 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "fluent",
-    platforms: [
-       .macOS(.v10_15),
-    ],
+    platforms: [.iOS(.v15), .macOS(.v12)],
     products: [
         .library(name: "Fluent", targets: ["Fluent"]),
     ],
